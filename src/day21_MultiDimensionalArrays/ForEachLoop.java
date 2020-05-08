@@ -4,11 +4,9 @@ import java.util.Arrays;
 
 public class ForEachLoop {
     /*
-
 		for(DataType variableName : ArrayName ){
 
 		}
-
      */
 
     public static void main(String[] args) {
