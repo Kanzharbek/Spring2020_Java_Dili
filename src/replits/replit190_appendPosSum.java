@@ -14,14 +14,15 @@ public class replit190_appendPosSum {
     public static ArrayList<Integer> appendPosSum(ArrayList<Integer> list) {
         ArrayList<Integer> positiveNum = new ArrayList<>();
         for (Integer each : list) {
-            if (each >= 0) {
+            if (each > 0) {
                 positiveNum.add(each);
             }
         }
         Integer sum = 0;
         for (Integer each : positiveNum) {
-            positiveNum.add(sum += each);
+            sum += each;
         }
+        positiveNum.add(sum);
         return positiveNum;
     }
 }

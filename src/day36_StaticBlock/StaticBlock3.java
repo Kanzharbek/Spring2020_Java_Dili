@@ -8,7 +8,7 @@ public class StaticBlock3 {
     static { // can call through class name in other classes
         name = "Dilnaz";
         num = 7;
-        System.out.println(name);
+        System.out.println(name );
     }
 
     public static void main(String[] args) { // it will be executed only inside this main method

@@ -3,7 +3,7 @@ package day24_Methods;
 public class StringReverse {
 
     public static void main(String[] args) {
-      // String t = Reverse("Cybertek");
+      //String t = Reverse("Cybertek");
 
         String name =  Reverse2("Cybertek");
 
