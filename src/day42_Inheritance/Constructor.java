@@ -1,7 +1,5 @@
 package day42_Inheritance;
 
-import OfficeHours.Practice_05_13_2020.ConstructorOverloading;
-
 class test { // parent class
 
     public test() {

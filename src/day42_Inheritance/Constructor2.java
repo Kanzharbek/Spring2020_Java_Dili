@@ -2,8 +2,8 @@ package day42_Inheritance;
 
 class Test { // parent class
 
-    public Test() { // constructor
-        this(2);
+    public Test() { // default constructor
+        this(2); // calling int constructor
         System.out.println("Parent class' default constructor");
     }
 
@@ -15,13 +15,13 @@ class Test { // parent class
 public class Constructor2 extends Test {
     //          sub               super
 
-    public Constructor2() { // constructor
-        super(); // calling a constructor of super class(parent)
+    public Constructor2() { // default constructor
+        super(); // calling a default constructor of super class(parent)
         System.out.println("Child class default constructor");
     }
 
-    public Constructor2(int a){
-    super(7);
+    public Constructor2(int a){// int constructor
+    super(7); // calling int constructor from super class
         System.out.println("child class int constructor");
     }
 

@@ -1,23 +1,23 @@
 package day42_Inheritance;
 
-class B{
+class B {
 
-    public B(int a){
+    public B(int a) {
         System.out.println("int");
     }
 
-    public B(double a){
+    public B(double a) {
         System.out.println("double");
     }
 
-    public B(long a){
+    public B(long a) {
         System.out.println("long");
     }
 }
 
-public class InheritanceReview extends B{
+public class InheritanceReview extends B {
 
-    public InheritanceReview(String a){
+    public InheritanceReview(String a) {
         super(1);
         System.out.println("String");
     }

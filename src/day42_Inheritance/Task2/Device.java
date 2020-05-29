@@ -24,13 +24,6 @@ public class Device {
         return "Brand: " + brand + ", Model: " + model + ", Type: " + type + ", Size: " + size + ", Price: $" + price + ", Made in " + country;
     }
 
-    public void call(long number) {
-        System.out.println("Calling " + number);
-    }
-
-    public void text(long number) {
-        System.out.println("Texting " + number);
-    }
 }
 
 class Phone extends Device {
