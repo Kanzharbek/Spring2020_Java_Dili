@@ -1,4 +1,4 @@
-package day47_abstract.RemoteWebBrowser;
+package day47_abstract;
 
 final class Test1 {
     public Test1() {

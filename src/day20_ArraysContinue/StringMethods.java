@@ -21,7 +21,7 @@ public class StringMethods {
 
         boolean euqalStr = Arrays.equals(ch1, ch2);
 
-        System.out.println(euqalStr); // str1 & str2 are biuld out of same characters
+        System.out.println(euqalStr); // str1 & str2 are build out of same characters
 
 
 

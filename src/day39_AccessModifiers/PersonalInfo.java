@@ -5,11 +5,11 @@ public class PersonalInfo {
     public static String name = "Dilnaz";
     public static char gender = 'F';
 
-    private char grade = 'A';
+    private char grade = 'A'; // available only in this class
     private long ssn = 901234;
     private long id = 123456789;
 
-    static int age = 28;
+    static int age = 28; // available only in this class and package
 }
 
 class CheckInfo {

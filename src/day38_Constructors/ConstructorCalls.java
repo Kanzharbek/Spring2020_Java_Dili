@@ -8,16 +8,16 @@ public class ConstructorCalls {
     }
 
     public ConstructorCalls(int a) {
-        // ConstructorCalls(); cannot call constructor byt it's name
-        this(); // calling constrictor by "this" keyword
+        // ConstructorCalls(); cannot call constructor by it's name
+        this(); // calling constrictor with "this" keyword
     }
 
-    public static void method1() {
+    public static void method1() { // custom method
         method2();
         // ConstructorCalls(); // only Constructor can call another Constructor
     }
 
     public static void method2() {
         method1();
-    }
+    } // method calling a regular method
 }

@@ -21,7 +21,7 @@ class Test {
 
         Encapsulation obj = new Encapsulation();
         //  System.out.println(obj.SSN); // no direct access to ssn variable. It's private data
-        System.out.println(obj.getSSN());
+        System.out.println(obj.getSSN()); // getter: will print private data
 
         obj.setSSN(112211); // setting a private data for ssn variable
         System.out.println(obj.getSSN());

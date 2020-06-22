@@ -19,7 +19,9 @@ public class SuperKeyword extends A{
     }
 
     public static void main(String[] args) {
+
         SuperKeyword obj = new SuperKeyword();
+        System.out.println(obj.a);
     }
 
 }

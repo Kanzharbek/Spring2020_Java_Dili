@@ -1,4 +1,4 @@
-package day47_abstract.RemoteWebBrowser;
+package day47_abstract;
 
 abstract class A{
 
